@@ -1,0 +1,56 @@
+p {
+	line-height: 30px;
+}
+
+.text {
+	min-width: 100px;
+	max-width: 700px; 
+	margin: 0 auto;
+}
+
+.logo {
+	max-width: 100%;
+	padding: 50px;
+	width: 400px;
+}
+
+.post {
+	background-color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+@media only screen and (max-width: 480px) {
+	.text {
+		margin-left: 3% !important;
+		margin-right: 3% !important;    
+		max-width: 100% !important;     
+	}
+
+	.logo {
+		width: 100% !important;
+		padding: 5px !important;
+	}
+}
+img {
+	max-width: 100%;
+	margin: auto;
+	display: block;
+}
+a {
+}
+
+li{
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	list-style: none;
+	background-image: url("../../images/checked_red.svg");
+	background-position: left center;
+	background-size: 60px;
+	max-width: 100%;
+}
+ul {
+	padding-right: 50px;
+	text-align: center;
+}
