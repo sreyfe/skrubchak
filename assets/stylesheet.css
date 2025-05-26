@@ -60,3 +60,12 @@ ul {
 	padding-left: 0px;
 	padding-right: 0px;
 }
+
+.stamp {
+   float: right;
+   max-width: 150px;
+   max-height: 150px;
+   padding: 10px;
+   margin-bottom: 15px;
+   margin-left: 15px;
+}
